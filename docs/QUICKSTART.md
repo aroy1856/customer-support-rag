@@ -42,9 +42,9 @@ poetry run streamlit run src/ui/streamlit_app.py
 
 The app will open at `http://localhost:8501`
 
-### 5. Test the System (Optional)
+### 6. Run Tests (Optional)
 ```bash
-poetry run python -m tests.test_system
+poetry run pytest tests/ -v
 ```
 
 ## Common Commands
@@ -61,7 +61,12 @@ poetry run python -m src.data_preparation.process_pipeline
 
 ### Run Tests
 ```bash
-poetry run python -m tests.test_system
+poetry run pytest tests/ -v
+```
+
+### Run Tests with Coverage
+```bash
+poetry run pytest tests/ --cov=src --cov-report=html
 ```
 
 ## Troubleshooting

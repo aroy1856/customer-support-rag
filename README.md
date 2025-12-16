@@ -146,18 +146,26 @@ The application will open in your browser at `http://localhost:8501`
 
 ### Running Tests
 
-Execute the functional test suite:
+Execute the test suite using pytest:
 
 ```bash
-poetry run python -m tests.test_system
+poetry run pytest tests/ -v
 ```
 
 Or if using pip:
 ```bash
-python -m tests.test_system
+pytest tests/ -v
 ```
 
-This will run 15 predefined test queries and generate a detailed report.
+For coverage report:
+```bash
+poetry run pytest tests/ --cov=src --cov-report=html
+```
+
+This will run all tests including:
+- Retriever functionality tests
+- Answer generation tests
+- End-to-end system tests
 
 ## 🛠️ Technical Details
 

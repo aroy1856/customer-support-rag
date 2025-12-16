@@ -225,6 +225,7 @@ response = llm.invoke(messages)
 | **Framework** | LangChain | 1.1.3+ | RAG pipeline orchestration |
 | **UI** | Streamlit | 1.31.0+ | Web interface |
 | **Text Processing** | tiktoken | 0.5.2+ | Token counting |
+| **Testing** | pytest | 9.0+ | Test framework |
 | **Dependency Mgmt** | Poetry | - | Package management |
 
 ### 6.2 Python Libraries
