@@ -197,7 +197,15 @@ This project fulfills the following requirements:
 - ✅ **Task 7**: System logging and functional testing
 - ✅ **Task 8**: Documentation and reporting
 
-## 📝 Logging
+## � Project Documentation
+
+Detailed documentation and reports are available in the `docs/` directory:
+
+- **[Technical Report](docs/Technical_Report.md)**: Comprehensive 6-page report covering methodology, implementation, and challenges.
+- **[Business Summary](docs/Business_Summary.md)**: Executive summary focusing on business value, efficiency gains, and ROI.
+- **[RAG Project Submission](docs/RAG_Project_Submission.html)**: Interactive notebook analysis and report.
+
+## �📝 Logging
 
 All interactions are logged to:
 - `logs/interactions.log` - Standard log format
