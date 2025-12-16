@@ -85,6 +85,42 @@ def main():
     
     # Sidebar
     with st.sidebar:
+        st.header("🔑 API Configuration")
+        
+        # API Key input
+        api_key_input = st.text_input(
+            "OpenAI API Key",
+            value=Config.OPENAI_API_KEY if Config.OPENAI_API_KEY else "",
+            type="password",
+            help="Enter your OpenAI API key. Leave empty to use .env file."
+        )
+        
+        # Update API key in session state if provided
+        if api_key_input:
+            import os
+            os.environ["OPENAI_API_KEY"] = api_key_input
+            Config.OPENAI_API_KEY = api_key_input
+        
+        # Vector store rebuild button
+        st.markdown("---")
+        st.subheader("🔄 Vector Store Management")
+        
+        if st.button("🔨 Rebuild Vector Store", help="Rebuild the vector store from scratch"):
+            if not Config.OPENAI_API_KEY:
+                st.error("⚠️ Please provide an OpenAI API key first!")
+            else:
+                with st.spinner("Rebuilding vector store... This may take a minute."):
+                    try:
+                        from src.embeddings import build_vector_store
+                        build_vector_store()
+                        st.success("✅ Vector store rebuilt successfully!")
+                        st.info("Please refresh the page to use the new vector store.")
+                        # Clear cache to force reload
+                        st.cache_resource.clear()
+                    except Exception as e:
+                        st.error(f"❌ Error rebuilding vector store: {e}")
+        
+        st.markdown("---")
         st.header("ℹ️ About")
         st.info(
             "This AI assistant helps you find answers to telecom-related questions "
@@ -199,10 +235,10 @@ def main():
                     for i, chunk in enumerate(result['retrieved_chunks'], 1):
                         with st.expander(
                             f"Chunk {i}: {chunk['metadata']['source']} "
-                            f"(Relevance: {chunk['score']:.2%})"
+                            f"(Distance: {chunk['distance']:.4f})"
                         ):
                             st.markdown(f"**Source:** {chunk['metadata']['source']}")
-                            st.markdown(f"**Relevance Score:** {chunk['score']:.4f}")
+                            st.markdown(f"**Distance:** {chunk['distance']:.4f} (lower is better)")
                             st.markdown(f"**Token Count:** {chunk['metadata']['token_count']}")
                             st.markdown("**Content:**")
                             st.markdown(f'<div class="chunk-box">{chunk["content"]}</div>', 

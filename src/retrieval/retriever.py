@@ -2,7 +2,7 @@
 
 import logging
 from typing import List, Dict, Any
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 
 from src.utils.config import Config
@@ -91,7 +91,7 @@ class DocumentRetriever:
             chunk = {
                 'content': doc.page_content,
                 'metadata': doc.metadata,
-                'score': 1 - score,  # Convert distance to similarity
+                'distance': score,  # ChromaDB returns L2 distance (lower is better)
             }
             retrieved_chunks.append(chunk)
         
@@ -119,8 +119,8 @@ class DocumentRetriever:
             content = chunk['content']
             
             if include_scores:
-                score = chunk.get('score', 0)
-                header = f"[Document {i} - {source} (Relevance: {score:.2%})]"
+                distance = chunk.get('distance', 0)
+                header = f"[Document {i} - {source} (Distance: {distance:.4f})]"
             else:
                 header = f"[Document {i} - {source}]"
             
