@@ -1,0 +1,120 @@
+FREQUENTLY ASKED QUESTIONS (FAQs)
+
+=== BILLING AND PAYMENTS ===
+
+Q1: When will I receive my monthly bill?
+A: Your monthly bill is generated on the 1st of every month and sent to your registered email and mobile number by the 5th of the month. You can also view your bill anytime through our mobile app or website.
+
+Q2: What payment methods do you accept?
+A: We accept credit/debit cards, net banking, UPI, mobile wallets, auto-debit, and payments at authorized retail stores. You can pay through our mobile app, website, or visit any of our franchise locations.
+
+Q3: What happens if I miss my payment due date?
+A: Bills must be paid within 15 days of generation. If payment is not received, a grace period of 3 days is provided. After that, your service will be temporarily suspended and a late payment fee of 2% per month will be charged on the outstanding amount.
+
+Q4: How do I dispute a billing error?
+A: You can raise a billing dispute within 30 days of bill generation through our customer care helpline (1800-XXX-XXXX), email (billing@telecom.com), or through the "Billing Support" section in our mobile app. We will investigate and respond within 7 working days.
+
+Q5: Can I get a refund for unused prepaid balance?
+A: Refunds are provided for unused prepaid balance above ₹50 when you permanently close your account. The refund will be processed within 15 working days to your original payment method or bank account.
+
+=== DATA AND INTERNET ===
+
+Q6: What is Fair Usage Policy (FUP)?
+A: Fair Usage Policy ensures equitable network access for all users. While your plan offers unlimited data, after consuming your daily or monthly high-speed data limit, your internet speed will be reduced to 512 Kbps (daily limit) or 256 Kbps (monthly limit) for the remainder of the period.
+
+Q7: How do I check my data usage?
+A: You can check your data usage in real-time through our mobile app, by sending an SMS "DATA" to 54321, or by logging into your account on our website. You'll see your total usage and remaining FUP quota.
+
+Q8: Can I purchase additional high-speed data after exhausting my FUP limit?
+A: Yes! You can purchase data boosters: 1 GB for ₹50 (24 hours validity), 5 GB for ₹200 (7 days validity), or 10 GB for ₹350 (30 days validity). Purchase through the mobile app, website, or SMS "BOOSTER" to 54321.
+
+Q9: Why is my internet slow?
+A: Slow internet can be due to: (1) Exhausted FUP limit - check your data usage, (2) Network congestion during peak hours, (3) Poor signal strength in your area, (4) Device issues. Try restarting your phone or contact customer care if the issue persists.
+
+Q10: Does video streaming consume more data?
+A: Yes, video streaming consumes significant data. On unlimited plans, video is optimized to standard definition (480p) to manage network resources. HD streaming will consume your FUP quota faster. Consider using Wi-Fi for HD video streaming.
+
+=== ROAMING ===
+
+Q11: Do I need to pay extra for domestic roaming?
+A: No! All our plans include FREE domestic roaming across India. You can use your plan benefits (data, voice, SMS) anywhere in India without any additional charges. Incoming calls are completely free.
+
+Q12: How do I activate international roaming?
+A: Activate international roaming 24-48 hours before travel through our mobile app, website, or by calling customer care (1800-XXX-XXXX). Postpaid customers may need to pay a security deposit of ₹5,000-₹10,000. Prepaid customers need a minimum balance of ₹500.
+
+Q13: What are the international roaming charges?
+A: We offer destination-specific roaming packs starting from ₹1,499 for 7 days. Packs include free incoming calls, outgoing minutes, data, and SMS. Without a pack, pay-per-use rates apply which are significantly higher (₹40-₹60 per minute for incoming calls, ₹500-₹600 per MB for data).
+
+Q14: Will my phone work in all countries?
+A: We have roaming agreements with 200+ operators in 150+ countries. However, coverage depends on the specific country and our partner networks there. Check coverage for your destination through our mobile app or website before traveling.
+
+Q15: How can I avoid high roaming charges?
+A: Purchase an appropriate roaming pack for your destination, use Wi-Fi whenever available, disable automatic app updates and cloud backups, turn off data roaming when not in use, and monitor your usage daily through the mobile app.
+
+=== PLAN ACTIVATION AND CHANGES ===
+
+Q16: How long does it take to activate a new connection?
+A: Prepaid connections are activated within 2-4 hours of document verification. Postpaid connections take 24-48 hours after credit check and document verification. Corporate connections take 3-5 business days.
+
+Q17: Can I change my plan anytime?
+A: Yes! You can change your plan anytime through the mobile app, website, customer care, or by visiting a retail store. Prepaid plan changes are immediate upon recharge. Postpaid upgrades are immediate with prorated charges, while downgrades take effect from the next billing cycle.
+
+Q18: What documents do I need for a new connection?
+A: You need a valid government-issued photo ID (Aadhaar, PAN, Passport, Driving License, or Voter ID), a recent passport-size photograph, proof of address (if different from ID), and a completed Customer Application Form.
+
+Q19: How do I port my number to your network?
+A: Send an SMS "PORT <your 10-digit mobile number>" to 1900. You'll receive a Unique Porting Code (UPC) valid for 30 days. Visit our store with the UPC and required documents. Porting will be completed within 3-5 working days. Porting charges are ₹6.46 (including taxes).
+
+Q20: Can I temporarily deactivate my connection?
+A: Yes, you can request temporary deactivation for 7-90 days for reasons like travel abroad or security concerns. Submit a request via customer care or mobile app. Reactivation charges are ₹50. Note that monthly rental charges continue during deactivation for postpaid connections.
+
+=== TECHNICAL SUPPORT ===
+
+Q21: What should I do if I lose my SIM card?
+A: Immediately call customer care (1800-XXX-XXXX) to block your SIM to prevent misuse. You can then request a duplicate SIM by visiting any retail store with your ID proof. Duplicate SIM charges are ₹50 and activation takes 2-4 hours.
+
+Q22: My calls are dropping frequently. What should I do?
+A: Call drops can be due to network issues, poor signal strength, or device problems. Try these steps: (1) Restart your phone, (2) Check if you're in a low-signal area, (3) Remove and reinsert your SIM card, (4) Update your phone's software. If the issue persists, contact customer care for network diagnostics.
+
+Q23: How do I set up voicemail?
+A: Voicemail is automatically activated on all connections. To access voicemail, dial 121 from your phone. You can customize your voicemail greeting, set up notifications, and manage messages through the voicemail menu or mobile app.
+
+Q24: Can I use my SIM in a tablet or dongle?
+A: Yes, you can use your mobile SIM in a tablet. However, for dongles and data cards, we recommend getting a separate data-only connection for better performance and dedicated data plans. Contact customer care for data card options.
+
+Q25: Why am I not receiving SMS or OTPs?
+A: This can happen due to: (1) Network issues - try restarting your phone, (2) Message inbox full - delete old messages, (3) SMS center number incorrect - contact customer care to reset, (4) DND (Do Not Disturb) blocking promotional messages - OTPs should still come through. Contact customer care if the issue persists.
+
+=== ACCOUNT MANAGEMENT ===
+
+Q26: How do I update my contact details or address?
+A: You can update your contact details through the mobile app under "Profile Settings" or by visiting any retail store with your ID proof. Address changes require proof of new address and may take 24-48 hours to process.
+
+Q27: Can I have multiple connections under one account?
+A: Yes, you can link multiple connections to a single account for unified billing and management. This is particularly useful for family plans or corporate accounts. Contact customer care or visit a retail store to link connections.
+
+Q28: How do I close my account permanently?
+A: For prepaid, simply stop recharging and your number will auto-deactivate after 90 days. For postpaid, submit a written closure request or call customer care, clear all outstanding dues, and return any rented equipment. Your security deposit will be refunded within 30 days after final bill settlement.
+
+Q29: What is auto-pay and how do I set it up?
+A: Auto-pay automatically deducts your monthly bill amount from your registered bank account or credit card on the due date. Set it up through the mobile app under "Payment Settings" or website. You'll receive a notification before each auto-debit.
+
+Q30: How do I check my plan details and validity?
+A: Check your plan details by: (1) Mobile app - view on home screen, (2) SMS - send "MYPLAN" to 54321, (3) Website - log in to your account, (4) Customer care - call 1800-XXX-XXXX. You'll see your current plan, validity, and remaining benefits.
+
+=== CUSTOMER SUPPORT ===
+
+Q31: How can I contact customer support?
+A: You can reach us through: (1) Customer care helpline: 1800-XXX-XXXX (24/7), (2) Email: support@telecom.com, (3) Live chat on mobile app or website, (4) Visit any retail store, (5) Social media: Twitter and Facebook support handles.
+
+Q32: What are your customer care hours?
+A: Our customer care is available 24/7 for all queries and support. Retail stores are typically open from 10 AM to 8 PM, but hours may vary by location. Check store hours on our website or mobile app.
+
+Q33: How long does it take to resolve a complaint?
+A: Standard complaints are resolved within 7 working days. Billing disputes are addressed within 7 working days. Technical issues are typically resolved within 24-48 hours. You'll receive regular updates on your complaint status via SMS and email.
+
+Q34: Can I track my complaint status?
+A: Yes! Every complaint receives a unique ticket number. Track your complaint status through the mobile app under "My Complaints", on the website, or by calling customer care with your ticket number.
+
+Q35: Do you offer support in regional languages?
+A: Yes, our customer care supports multiple regional languages including Hindi, Tamil, Telugu, Kannada, Malayalam, Bengali, Marathi, and Gujarati. Select your preferred language when calling customer care or in the mobile app settings.

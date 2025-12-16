@@ -1,0 +1,171 @@
+PLAN ACTIVATION AND DEACTIVATION POLICY
+
+1. NEW CONNECTION ACTIVATION
+
+1.1 DOCUMENTATION REQUIREMENTS
+To activate a new connection, customers must provide:
+- Valid government-issued photo ID (Aadhaar, PAN, Passport, Driving License, or Voter ID)
+- Recent passport-size photograph
+- Proof of address (if different from ID)
+- Completed Customer Application Form (CAF)
+
+1.2 ACTIVATION TIMELINE
+- Prepaid connections: Activated within 2-4 hours of document verification
+- Postpaid connections: Activated within 24-48 hours after credit check and document verification
+- Corporate connections: Activated within 3-5 business days after agreement signing
+
+1.3 INITIAL CHARGES
+- Prepaid: First recharge amount (minimum ₹100)
+- Postpaid: Security deposit (2 months' rental) + first month's rental (prorated)
+- SIM card cost: ₹50 (may be waived during promotional offers)
+
+2. PLAN CHANGE AND MIGRATION
+
+2.1 CHANGING YOUR PLAN
+Existing customers can change their plan at any time through:
+- Mobile app: Navigate to "My Plan" > "Change Plan"
+- Website: Log in and select "Upgrade/Downgrade Plan"
+- Customer care: Call 1800-XXX-XXXX
+- Visit any retail store
+
+2.2 PLAN CHANGE EFFECTIVE DATE
+- Prepaid to Prepaid: Immediate activation upon recharge
+- Postpaid plan upgrades: Effective immediately with prorated charges
+- Postpaid plan downgrades: Effective from next billing cycle
+- Prepaid to Postpaid: Processed within 24-48 hours after credit verification
+- Postpaid to Prepaid: Effective after clearing all outstanding dues
+
+2.3 CHARGES FOR PLAN CHANGE
+- No charges for plan changes within the same category (prepaid to prepaid or postpaid to postpaid)
+- Prepaid to Postpaid migration: ₹100 processing fee + security deposit
+- Postpaid to Prepaid migration: ₹50 processing fee (security deposit refunded after dues settlement)
+
+3. PLAN RENEWAL AND RECHARGE
+
+3.1 PREPAID RECHARGE
+- Recharge validity varies by plan (28 days, 56 days, 84 days, or 365 days)
+- Recharge can be done through mobile app, website, retail stores, or authorized dealers
+- Auto-recharge facility available to avoid service interruption
+- Minimum recharge amount: ₹10
+- Maximum recharge amount: ₹10,000 per transaction
+
+3.2 POSTPAID BILL PAYMENT
+- Bills generated on 1st of every month
+- Payment due within 15 days
+- Auto-pay facility available for hassle-free payments
+- Grace period of 3 days after due date before service suspension
+
+4. SERVICE SUSPENSION
+
+4.1 PREPAID SUSPENSION
+- Service suspended when validity expires or balance reaches zero
+- Incoming calls and SMS remain active for 7 days after expiry
+- Complete deactivation after 90 days of non-recharge
+- Number retention possible by doing minimum recharge within 90 days
+
+4.2 POSTPAID SUSPENSION
+- Service suspended 3 days after payment due date if bill remains unpaid
+- Incoming services blocked during suspension
+- Reconnection within 24 hours of payment
+- Reconnection charges: ₹100
+- Permanent deactivation after 60 days of non-payment
+
+5. VOLUNTARY DEACTIVATION
+
+5.1 TEMPORARY DEACTIVATION
+Customers can request temporary deactivation for:
+- Travel abroad (to avoid unwanted charges)
+- Security reasons (lost/stolen phone)
+- Personal reasons
+
+Temporary deactivation process:
+- Submit request via customer care or mobile app
+- Minimum deactivation period: 7 days
+- Maximum deactivation period: 90 days
+- Reactivation charges: ₹50
+- Monthly rental charges continue during deactivation for postpaid
+
+5.2 PERMANENT DEACTIVATION
+To permanently close your account:
+- Prepaid: No action needed; number auto-deactivates after 90 days of inactivity
+- Postpaid: Submit written request or call customer care
+- Clear all outstanding dues
+- Return any rented equipment (routers, dongles, etc.)
+- Security deposit refunded within 30 days after final bill settlement
+- No refund for unused prepaid balance below ₹50
+
+6. NUMBER PORTABILITY (MNP)
+
+6.1 PORTING TO OUR NETWORK
+- Send SMS "PORT <10-digit mobile number>" to 1900
+- Receive Unique Porting Code (UPC) valid for 30 days
+- Visit our store with UPC and documents
+- Porting completed within 3-5 working days
+- Porting charges: ₹6.46 (including taxes)
+
+6.2 PORTING FROM OUR NETWORK
+- Clear all outstanding dues before porting
+- No lock-in period restrictions
+- Same process: SMS to 1900 and visit new operator's store
+- Your account will be automatically closed upon successful porting
+
+7. SPECIAL ACTIVATION SCENARIOS
+
+7.1 CORPORATE BULK ACTIVATION
+- Minimum 10 connections for corporate rates
+- Dedicated account manager assigned
+- Centralized billing and management portal
+- Custom plans available based on requirements
+- Activation within 5-7 business days
+
+7.2 INTERNATIONAL ROAMING ACTIVATION
+- Must be activated before traveling abroad
+- Activation request 24 hours before travel
+- Activate via mobile app, website, or customer care
+- Security deposit may be required (₹5,000 - ₹10,000)
+- Automatic deactivation upon return or after 90 days
+
+7.3 DATA CARD/DONGLE ACTIVATION
+- Separate connection for data-only devices
+- Same documentation as mobile connection
+- Activation within 24 hours
+- No voice or SMS services
+- Can be linked to primary mobile account for unified billing
+
+8. ACTIVATION FAILURE AND TROUBLESHOOTING
+
+8.1 COMMON ACTIVATION ISSUES
+- Document verification failure: Resubmit clear copies
+- Credit check failure (postpaid): Opt for prepaid or provide additional security deposit
+- Technical issues: Contact customer care for manual activation
+- SIM card defect: Free replacement within 7 days
+
+8.2 CUSTOMER SUPPORT
+For activation-related queries:
+- Customer care: 1800-XXX-XXXX (24/7)
+- Email: activation@telecom.com
+- Live chat on mobile app
+- Visit nearest retail store
+
+9. REGULATORY COMPLIANCE
+
+All activations comply with:
+- Department of Telecommunications (DoT) guidelines
+- Telecom Regulatory Authority of India (TRAI) regulations
+- Know Your Customer (KYC) norms
+- Aadhaar-based e-KYC for instant activation
+
+10. RIGHTS AND RESPONSIBILITIES
+
+10.1 CUSTOMER RIGHTS
+- Choose any plan without discrimination
+- Port number to any operator
+- Receive activation confirmation within specified timeline
+- Get refund of security deposit upon closure
+
+10.2 CUSTOMER RESPONSIBILITIES
+- Provide genuine documents
+- Inform about change of address or contact details
+- Pay bills on time to avoid suspension
+- Use services as per terms and conditions
+- Report lost/stolen SIM immediately for deactivation

@@ -1,0 +1,77 @@
+TELECOM BILLING POLICY
+
+1. BILLING CYCLE AND STATEMENT GENERATION
+
+All telecom services are billed on a monthly cycle. The billing cycle runs from the 1st day of the month to the last day of the month. Customers will receive their monthly bill statement by the 5th day of the following month via email and SMS notification.
+
+2. BILLING COMPONENTS
+
+Your monthly bill consists of the following components:
+- Monthly rental charges for your subscribed plan
+- Usage charges beyond your plan limits (data, voice, SMS)
+- Value-added services (VAS) subscriptions
+- One-time charges for plan changes or activations
+- Applicable taxes and regulatory fees
+
+3. PAYMENT METHODS
+
+We accept the following payment methods:
+- Online payment through our mobile app or website using credit/debit cards, net banking, or UPI
+- Auto-debit from your registered bank account
+- Payment at authorized retail stores and franchises
+- Mobile wallets and digital payment platforms
+
+4. PAYMENT DUE DATE
+
+All bills must be paid within 15 days from the bill generation date. Late payment may result in service suspension and additional late payment charges of 2% per month on the outstanding amount.
+
+5. ADVANCE PAYMENT AND DEPOSITS
+
+Postpaid customers may be required to pay a security deposit equivalent to two months' estimated billing amount. This deposit will be refunded upon account closure after adjusting any outstanding dues. Prepaid customers must maintain a minimum balance to continue services.
+
+6. BILLING DISPUTES
+
+If you notice any discrepancy in your bill, you must raise a dispute within 30 days of bill generation. Disputes can be raised through:
+- Customer care helpline: 1800-XXX-XXXX
+- Email: billing@telecom.com
+- Mobile app under "Billing Support" section
+
+We will investigate and respond to your dispute within 7 working days. If the dispute is found valid, the adjustment will be reflected in your next billing cycle.
+
+7. PRORATION OF CHARGES
+
+When you activate a new plan or change your existing plan mid-cycle, charges will be prorated based on the number of days the plan was active. Similarly, if you terminate services mid-cycle, you will be charged only for the days of service used.
+
+8. INTERNATIONAL ROAMING CHARGES
+
+International roaming charges are billed separately and will appear in your next billing cycle after your return. Roaming charges include:
+- Outgoing calls made while roaming
+- Incoming calls received while roaming
+- Data usage while roaming
+- SMS sent while roaming
+
+Please refer to our International Roaming Tariff document for detailed rates.
+
+9. UNBILLED USAGE
+
+Your current month's usage that has not yet been billed can be viewed in real-time through our mobile app or by sending an SMS "USAGE" to 54321. This helps you track your consumption and avoid bill shock.
+
+10. PAPERLESS BILLING
+
+We encourage customers to opt for paperless billing to support environmental sustainability. Paperless billing customers receive their bills via email and can access them anytime through the mobile app. Customers opting for paperless billing receive a 2% discount on their monthly rental charges.
+
+11. TAX INVOICE
+
+All bills are considered tax invoices for GST purposes. The bill will clearly show the GST breakdown including CGST, SGST, and IGST as applicable based on your billing address.
+
+12. BILLING FOR SUSPENDED ACCOUNTS
+
+If your account is temporarily suspended due to non-payment, you will continue to be charged the monthly rental fee until the account is either reactivated or permanently closed. No usage charges will apply during suspension.
+
+13. REFUNDS AND CREDITS
+
+Any refunds or credits due to billing errors, service issues, or overpayment will be processed within 15 working days. Refunds can be credited to your original payment method or adjusted against future bills as per your preference.
+
+14. CORPORATE AND BUSINESS BILLING
+
+Corporate accounts with multiple connections receive consolidated billing. A single invoice covering all connections under the corporate account will be generated. Corporate customers can access detailed usage reports for each connection through our enterprise portal.

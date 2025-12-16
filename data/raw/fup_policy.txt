@@ -1,0 +1,110 @@
+FAIR USAGE POLICY (FUP)
+
+1. INTRODUCTION
+
+This Fair Usage Policy (FUP) is designed to ensure that all our customers enjoy a consistent and high-quality internet experience. The policy applies to all unlimited data plans and is necessary to prevent network congestion and ensure equitable access to network resources for all users.
+
+2. WHAT IS FAIR USAGE POLICY?
+
+Fair Usage Policy is a mechanism to manage network traffic and prevent excessive usage by a small number of users that could degrade service quality for others. While your plan offers unlimited data, the speed may be reduced after you consume a certain amount of high-speed data in a billing cycle.
+
+3. FUP LIMITS BY PLAN
+
+The FUP limit varies based on your subscribed plan:
+
+- Basic Unlimited Plan: 1.5 GB per day high-speed data
+- Standard Unlimited Plan: 2 GB per day high-speed data
+- Premium Unlimited Plan: 3 GB per day high-speed data
+- Elite Unlimited Plan: 4 GB per day high-speed data
+
+After consuming your daily high-speed data limit, your internet speed will be reduced to 512 Kbps for the remainder of the day. The high-speed data quota resets at midnight every day.
+
+4. MONTHLY FUP CAPS
+
+In addition to daily limits, some plans have monthly FUP caps:
+
+- Basic Unlimited Plan: 50 GB per month
+- Standard Unlimited Plan: 75 GB per month
+- Premium Unlimited Plan: 100 GB per month
+- Elite Unlimited Plan: 150 GB per month
+
+Once you exceed the monthly limit, your speed will be throttled to 256 Kbps for the remainder of the billing cycle, regardless of daily quota availability.
+
+5. SPEED AFTER FUP LIMIT
+
+After reaching your FUP limit:
+- Daily limit exceeded: Speed reduced to 512 Kbps until midnight
+- Monthly limit exceeded: Speed reduced to 256 Kbps until next billing cycle
+- You can continue to use data without any additional charges
+- No data usage is blocked; only speed is reduced
+
+6. CHECKING YOUR FUP USAGE
+
+You can check your current data usage and remaining FUP quota through:
+- Mobile app: View real-time usage dashboard
+- SMS: Send "DATA" to 54321
+- Website: Log in to your account and check usage details
+- Customer care: Call 1800-XXX-XXXX
+
+7. PURCHASING ADDITIONAL HIGH-SPEED DATA
+
+If you exhaust your FUP limit and need high-speed data, you can purchase data boosters:
+- 1 GB booster: ₹50 (valid for 24 hours)
+- 5 GB booster: ₹200 (valid for 7 days)
+- 10 GB booster: ₹350 (valid for 30 days)
+
+Data boosters can be purchased through the mobile app, website, or by sending an SMS "BOOSTER" to 54321.
+
+8. FUP EXEMPTIONS
+
+The following services are exempt from FUP limits and do not count toward your data usage:
+- Emergency services and government websites
+- Our company's official app and website
+- Speed test applications (limited to 100 MB per day)
+- Software updates for operating systems (first 500 MB per month)
+
+9. NETWORK MANAGEMENT PRACTICES
+
+To ensure optimal network performance, we employ the following practices:
+- Traffic prioritization during peak hours (6 PM to 11 PM)
+- Bandwidth allocation based on network congestion
+- Temporary speed reduction for extremely high-bandwidth activities like large file downloads during peak hours
+
+10. TETHERING AND HOTSPOT USAGE
+
+Using your mobile connection as a hotspot or for tethering is permitted but subject to FUP limits. Excessive tethering usage may be monitored, and if it significantly impacts network performance, additional restrictions may be applied.
+
+11. UNLIMITED NIGHT DATA
+
+Some plans include unlimited high-speed data during night hours (2 AM to 6 AM) without counting toward FUP limits. This allows you to download large files, updates, or stream content during off-peak hours.
+
+12. FUP FOR ROAMING
+
+When using data while roaming (domestic or international), different FUP limits apply:
+- Domestic roaming: Same FUP as home network
+- International roaming: Separate data packs with specific limits (refer to roaming tariff document)
+
+13. FAIR USAGE FOR VIDEO STREAMING
+
+Video streaming on unlimited plans is optimized to standard definition (480p) to manage network resources. If you wish to stream in HD or higher quality, you may experience faster FUP consumption or need to purchase HD streaming add-ons.
+
+14. POLICY UPDATES
+
+We reserve the right to modify FUP limits based on network capacity, technology upgrades, and regulatory requirements. Any changes will be communicated at least 30 days in advance via SMS, email, and website notifications.
+
+15. ABUSE PREVENTION
+
+The FUP is also designed to prevent abuse such as:
+- Commercial use of personal plans
+- Running servers or hosting services
+- Automated data scraping or bot activities
+- Reselling bandwidth to third parties
+
+Violation of these terms may result in service suspension or termination.
+
+16. CUSTOMER SUPPORT
+
+For any questions or concerns regarding FUP, please contact:
+- Customer care: 1800-XXX-XXXX
+- Email: support@telecom.com
+- Live chat on mobile app or website
