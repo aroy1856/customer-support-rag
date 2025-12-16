@@ -76,7 +76,27 @@ customer-support-rag/
 
 ### Building the Vector Store
 
-Before using the system, you need to process the documents and build the vector store:
+Before using the system, you need to process the documents and build the vector store in two steps:
+
+**Step 1: Process Documents and Generate Embeddings**
+
+```bash
+poetry run python -m src.data_preparation.process_pipeline
+```
+
+Or if using pip:
+```bash
+python -m src.data_preparation.process_pipeline
+```
+
+This will:
+1. Load all telecom policy documents from `data/raw/`
+2. Clean the text (remove headers, footers, normalize whitespace)
+3. Split them into 500-token chunks with 150-token overlap
+4. Generate embeddings using OpenAI for each chunk
+5. Save processed chunks with embeddings to `data/chunks/chunks_with_embeddings.json`
+
+**Step 2: Build the Vector Store**
 
 ```bash
 poetry run python -m src.embeddings.build_vector_store
@@ -88,12 +108,11 @@ python -m src.embeddings.build_vector_store
 ```
 
 This will:
-1. Load and clean all telecom policy documents
-2. Split them into 500-token chunks with 150-token overlap
-3. Generate embeddings using OpenAI
-4. Store everything in ChromaDB
+1. Load the processed chunks with embeddings
+2. Create a ChromaDB vector store
+3. Store all chunks in the database at `chroma_db/`
 
-**Note**: This step requires an internet connection and will make API calls to OpenAI.
+**Note**: Both steps require an internet connection and will make API calls to OpenAI.
 
 ### Running the Application
 

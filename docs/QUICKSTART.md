@@ -18,18 +18,24 @@ Edit `.env` file and add your OpenAI API key:
 OPENAI_API_KEY=sk-your-actual-api-key-here
 ```
 
-### 3. Build Vector Store
+### 3. Process Documents and Generate Embeddings
+```bash
+poetry run python -m src.data_preparation.process_pipeline
+```
+
+This will process all documents and generate embeddings.
+
+### 4. Build Vector Store
 ```bash
 poetry run python -m src.embeddings.build_vector_store
 ```
 
 Wait for the process to complete. You should see:
-- Documents loaded
-- Chunks created
-- Embeddings generated
+- Chunks loaded
+- Documents created
 - Vector store built
 
-### 4. Run the Application
+### 5. Run the Application
 ```bash
 poetry run streamlit run src/ui/streamlit_app.py
 ```
