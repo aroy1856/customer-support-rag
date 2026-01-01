@@ -23,6 +23,7 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "tiktoken>=0.5.2",
     "pandas>=2.2.0",
+    "langgraph (>=1.0.5,<2.0.0)",
 ]
 
 
