@@ -242,6 +242,7 @@ def run_rag_graph(question: str, max_retries: int = 3) -> Dict[str, Any]:
         "relevant_documents": [],
         "is_sufficient": False,
         "generation": "",
+        "confidence_score": 0.0,
         "is_grounded": False,
         "retry_count": 0,
         "max_retries": max_retries,

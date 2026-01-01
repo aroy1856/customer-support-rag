@@ -1,19 +1,25 @@
-"""Validate answer node - checks if answer is grounded in documents."""
+"""Validate answer node - checks if answer is grounded in documents using structured output."""
 
-import json
 import logging
 from typing import Any, Dict
 from langchain_openai import ChatOpenAI
 
 from src.utils.config import Config
 from src.langgraph_rag.state import GraphState
-from src.langgraph_rag.prompts import VALIDATE_ANSWER_PROMPT
+from src.langgraph_rag.models import GradeAnswer
 
 logger = logging.getLogger(__name__)
 
+# Validation prompt for structured output
+VALIDATE_SYSTEM_PROMPT = """You are a grader assessing whether an answer is grounded in / supported by a set of documents.
+
+Check if EVERY claim in the answer is supported by the documents.
+The answer should not contain information not present in the documents.
+Minor paraphrasing is acceptable as long as the meaning is preserved."""
+
 
 def validate_answer_node(state: GraphState) -> Dict[str, Any]:
-    """Validate that the generated answer is grounded in documents.
+    """Validate that the generated answer is grounded in documents using structured output.
     
     Args:
         state: Current graph state with generation and relevant_documents
@@ -35,44 +41,49 @@ def validate_answer_node(state: GraphState) -> Dict[str, Any]:
     
     documents_text = "\n".join(doc_texts)
     
-    # Initialize LLM for validation
+    # Initialize LLM with structured output
     llm = ChatOpenAI(
         model=Config.LLM_MODEL,
         temperature=0,
         openai_api_key=Config.OPENAI_API_KEY
     )
     
-    # Validate answer
-    prompt = VALIDATE_ANSWER_PROMPT.format(
-        documents=documents_text,
-        answer=generation
-    )
+    # Create structured LLM
+    structured_llm = llm.with_structured_output(GradeAnswer)
     
     try:
-        response = llm.invoke(prompt)
-        response_text = response.content.strip()
+        # Validate answer with structured output
+        messages = [
+            ("system", VALIDATE_SYSTEM_PROMPT),
+            ("human", f"""Documents:
+{documents_text}
+
+Answer to Validate:
+{generation}
+
+Is this answer fully grounded in the documents?""")
+        ]
         
-        # Parse JSON response
-        if "```" in response_text:
-            response_text = response_text.split("```")[1]
-            if response_text.startswith("json"):
-                response_text = response_text[4:]
+        result: GradeAnswer = structured_llm.invoke(messages)
+        is_grounded = result.grounded
+        reasoning = result.reasoning
         
-        result = json.loads(response_text)
-        is_grounded = result.get("grounded", "no").lower() == "yes"
-        
-    except (json.JSONDecodeError, Exception) as e:
-        logger.warning(f"[VALIDATE] Error parsing validation: {e}")
-        # If parsing fails, assume grounded to avoid infinite loops
+    except Exception as e:
+        logger.warning(f"[VALIDATE] Error validating: {e}")
+        # If validation fails, assume grounded to avoid infinite loops
         is_grounded = True
+        reasoning = f"Assumed grounded due to error: {str(e)}"
     
     logger.info(f"[VALIDATE] Answer grounded: {is_grounded}")
+    if reasoning:
+        logger.info(f"[VALIDATE] Reasoning: {reasoning}")
     
     # Create step info
     step_info = {
         "node": "validate_answer",
         "status": "completed",
         "is_grounded": is_grounded,
+        "reasoning": reasoning,
         "retry_count": retry_count
     }
     

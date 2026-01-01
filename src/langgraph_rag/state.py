@@ -36,6 +36,7 @@ class GraphState(TypedDict):
     
     # Generation
     generation: str
+    confidence_score: float  # Confidence score from 0.0 to 1.0
     
     # Validation
     is_grounded: bool
