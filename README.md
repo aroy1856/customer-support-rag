@@ -19,6 +19,28 @@ This project implements a RAG-based chatbot capable of:
 - **Comprehensive Logging**: Tracks all queries, retrieved documents, and responses
 - **Functional Testing**: Includes 15+ test queries for validation
 
+## 🚀 Advanced Version: LangGraph Enhanced RAG
+
+> **Looking for the advanced self-corrective RAG?** Check out the [`rag-langgraph`](https://github.com/aroy1856/customer-support-rag/tree/rag-langgraph) branch!
+
+The `rag-langgraph` branch enhances this basic RAG with **LangGraph** for:
+
+| Feature | Basic (main) | LangGraph Branch |
+|---------|--------------|------------------|
+| **Document Filtering** | Uses all retrieved | ✅ Grades & filters by relevance |
+| **Hallucination Check** | None | ✅ Validates answer grounding |
+| **Self-Correction** | None | ✅ Regenerates up to 3 times |
+| **Insufficient Data** | Generates anyway | ✅ Explicit "no data" response |
+| **Debugging** | Limited | ✅ Step-by-step execution trace |
+
+### To try LangGraph version:
+```bash
+git checkout rag-langgraph
+poetry run streamlit run src/ui/streamlit_langgraph.py
+```
+
+📖 See [LangGraph README](https://github.com/aroy1856/customer-support-rag/blob/rag-langgraph/docs/LANGGRAPH_README.md) for full documentation.
+
 ## 📁 Project Structure
 
 ```
